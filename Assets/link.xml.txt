@@ -1,0 +1,6 @@
+<linker>
+  <assembly fullname="Firebase.Database" preserve="all"/>
+  <assembly fullname="Firebase.Auth" preserve="all"/>
+  <assembly fullname="Firebase.Analytics" preserve="all"/>
+  <assembly fullname="Firebase.App" preserve="all"/>
+</linker>

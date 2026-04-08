@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "844780335921",
+    "firebase_url": "https://territorywarsresearch-default-rtdb.firebaseio.com",
+    "project_id": "territorywarsresearch",
+    "storage_bucket": "territorywarsresearch.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844780335921:android:b3fa570aacdb03d9d9f610",
+        "android_client_info": {
+          "package_name": "com.ashesi.territorywars"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVRRuoQxc42tHqCkos2QrEaVvbQDa2Gjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
