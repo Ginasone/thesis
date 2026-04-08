@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    // ========== YOUR GAME LOGIC ==========
+    // ========== THE GAME LOGIC ==========
     public List<Territory> territories;
     private Territory selectedTerritory;
     private int currentPlayer = 1;
@@ -18,17 +18,17 @@ public class GameManager : MonoBehaviour
     private Button endTurnButton;
     private Canvas canvas;
 
-    // Game mode (always offline for now)
+    // Game mode
     private string currentGameMode = "offline";
 
-    // ========== ONLY WHAT YOU HAVE ==========
+    // ========== ONLY WHAT I HAVE ==========
     [Header("UI Panels - Connect These!")]
-    public GameObject preSurveyPanel;      // Your PreSurveyPanel
-    public GameObject gameBoard;            // Your GameBoard
-    public GameObject postSurveyPanel;      // Your PostSurveyPanel
+    public GameObject preSurveyPanel;      // PreSurveyPanel
+    public GameObject gameBoard;            // GameBoard
+    public GameObject postSurveyPanel;      // PostSurveyPanel
 
-    [Header("Optional - Leave Empty If You Don't Have")]
-    public FirebaseManager firebaseManager; // Only if you have it
+    [Header("Optional")]
+    public FirebaseManager firebaseManager; 
 
     // ModeSelector is attached to this same GameObject
     private ModeSelector modeSelector;
@@ -369,7 +369,7 @@ public class GameManager : MonoBehaviour
         btn.onClick.AddListener(onClick);
     }
 
-    // ========== YOUR GAME LOGIC (UNCHANGED) ==========
+    // ========== MY GAME LOGIC ==========
 
     void EnsureEventSystem()
     {
